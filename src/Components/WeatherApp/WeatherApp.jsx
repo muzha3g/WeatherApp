@@ -69,7 +69,11 @@ export const WeatherApp = () => {
   return (
     <div className="container">
       <div className="top-bar">
-        <input type="text" className="cityInput" placeholder="search" />
+        <input
+          type="text"
+          className="cityInput"
+          placeholder="Search city in English"
+        />
         <div
           className="search-icon"
           onClick={() => {
